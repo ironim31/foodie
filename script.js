@@ -3,11 +3,11 @@ $(function(){
 
     // ここから非同期通信
     $.ajax({
-        url: 'アクセスするURL', //アクセスするURL
-        type: 'postかget',    //post or get
+        url: 'www.themealdb.com/api/json/v1/1/categories.php', //アクセスするURL
+        type: 'get',    //post or get
         cache: false,        //cacheを使うか使わないかを設定
         dataType:'json',     //data type script・xmlDocument・jsonなど
-        data:data,           //アクセスするときに必要なデータを記載      
+        data:parameter,           //アクセスするときに必要なデータを記載      
       })
       .done(function(response) { 
          //通信成功時の処理
