@@ -24,7 +24,13 @@ $(function(){
         
 
         
-        //  name
+        //  name strMealを取得
+        console.log(meals.strMeal);
+        let mealsName = meals.strMeal;
+        console.log(mealsName);
+        let NamegRes = $(`<h2> ${mealsName}</h2>`);
+        NamegRes.insertBefore("#btn");
+
         //  video
          //成功したとき実行したいスクリプトを記載
       })
