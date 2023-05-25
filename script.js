@@ -28,11 +28,22 @@ $(function(){
         console.log(meals.strMeal);
         let mealsName = meals.strMeal;
         console.log(mealsName);
-        let NamegRes = $(`<h2> ${mealsName}</h2>`);
-        NamegRes.insertBefore("#btn");
+        let NameRes = $(`<h2> ${mealsName}</h2>`);
+        NameRes.insertBefore("#btn");
 
-        //  video
+        //  video strYoutubeを取得
+        console.log(meals.strYoutube);
+        let mealsVideo = meals.strYoutube;
+        console.log(mealsVideo);
+        let VideoRes =  $(`<a href="${mealsVideo}">作り方はこちら</a>`);
+        VideoRes.insertBefore("#btn");
+        
+        
+
+
          //成功したとき実行したいスクリプトを記載
+
+
       })
       .fail(function(xhr) {  
          //通信失敗時の処理
