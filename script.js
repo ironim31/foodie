@@ -3,7 +3,7 @@ $(function(){
 
     // ここから非同期通信
     $.ajax({
-        url: 'www.themealdb.com/api/json/v1/1/categories.php', //アクセスするURL
+        url: 'www.themealdb.com/api/json/v1/1/random.php', //アクセスするURL
         type: 'get',    //post or get
         cache: false,        //cacheを使うか使わないかを設定
         dataType:'json',     //data type script・xmlDocument・jsonなど
