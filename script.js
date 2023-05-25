@@ -17,10 +17,11 @@ $(function(){
         console.log(meals.strMealThumb);
         let mealsImg = meals.strMealThumb;
         // imgタグDOM取得
+        // imgRes に　URLを追加する
         let imgRes = $(`<img class="meals_img" src=${mealsImg}>`);
         // imgRes を兄弟に合わせる
         imgRes.insertBefore("#btn");
-        // imgRes に　URLを追加する
+        
 
         
         //  name
