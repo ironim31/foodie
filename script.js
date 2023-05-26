@@ -20,7 +20,7 @@ $(function(){
         // imgRes に　URLを追加する          
         let imgRes = $(`<img class="meals_img" src=${mealsImg}>`);
         // imgRes を兄弟に合わせる
-        imgRes.insertBefore("#btn");
+        
         
 
         
@@ -37,7 +37,7 @@ $(function(){
         console.log(mealsVideo);
         let VideoRes =  $(`<a href="${mealsVideo}">作り方はこちら</a>`);
         VideoRes.insertBefore("#btn");
-        
+        $('.res').append($(imgRes),$(NameRes),$(VideoRes));
         
 
 
