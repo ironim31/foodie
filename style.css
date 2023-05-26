@@ -1,12 +1,17 @@
-#btn {
+*{
     display: block;
+    background-color: #808080;
+    color: #fbf5f2;
+    font-family: Arial Black;
+}
+#btn {
     padding: 1rem 2rem;
     font-weight: 700;
     background: rgb(255, 255, 255);
-    color: blueviolet;
+    color: #E76020;
     border-radius: .5rem;
-    border-bottom: 2px solid blueviolet;
-    border-right: 2px solid blueviolet;
+    border-bottom: 2px solid #E76020;
+    border-right: 2px solid #E76020;
     border-top: 2px solid white;
     border-left: 2px solid white;
     transition-duration: 1s;
@@ -17,9 +22,9 @@
         box-shadow;
 }
 #btn:hover {
-    border-top: 2px solid blueviolet;
-    border-left: 2px solid blueviolet;
-    border-bottom: 2px solid rgb(238, 103, 238);
-    border-right: 2px solid rgb(238, 103, 238);
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;
+    border-top: 2px solid #E76020;
+    border-left: 2px solid #E76020;
+    border-bottom: 2px solid #EE892F;
+    border-right: 2px solid #EE892F;
+    box-shadow: #fa7132 5px 5px, #fe996a 10px 10px, #ffd7c4 15px 15px;
    }
