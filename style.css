@@ -1,30 +1,77 @@
-*{
-    display: block;
-    background-color: #808080;
-    color: #fbf5f2;
+* {
+    background-color: #3C1C15;
+    color: #D75B27;
     font-family: Arial Black;
 }
+
+body {
+    width: 90vw;
+    margin: 0 auto;
+}
+
 #btn {
+    display: block;
+    margin: 0 0 0 auto;
     padding: 1rem 2rem;
     font-weight: 700;
-    background: rgb(255, 255, 255);
+    background: #ffecc0;
     color: #E76020;
     border-radius: .5rem;
     border-bottom: 2px solid #E76020;
     border-right: 2px solid #E76020;
-    border-top: 2px solid white;
-    border-left: 2px solid white;
+    border-top: 2px solid #ffecc0;
+    border-left: 2px solid #ffecc0;
     transition-duration: 1s;
     transition-property: border-top,
         border-left,
         border-bottom,
         border-right,
         box-shadow;
+    position: fixed;
+    top: 725px;
+    right: 50px;
+    bottom: 30px;
+    /* left: ; */
 }
+
 #btn:hover {
     border-top: 2px solid #E76020;
     border-left: 2px solid #E76020;
     border-bottom: 2px solid #EE892F;
     border-right: 2px solid #EE892F;
-    box-shadow: #fa7132 5px 5px, #fe996a 10px 10px, #ffd7c4 15px 15px;
-   }
+    box-shadow: #fa7132 5px 5px, #fe996a 10px 10px, #f9e5b4 15px 15px;
+}
+
+.meals_img {
+    display: block;
+    height: 450px;
+    margin: 41px auto 0;
+    width: auto;
+    border: solid #ffe7ae 7px
+}
+
+h1 {
+    font-size: 65px;
+    margin-top: 41px;
+}
+
+h2 {
+    /* display: block; */
+    text-align: center;
+    font-size: 30px;
+}
+
+a {
+    display: block;
+    text-align: center;
+}
+footer{
+    height: 40px;
+    background-color: #E76020;
+    color: #ffe7ae;
+    text-align: center;
+    margin-top: 70px;
+}
+.res{
+    min-height: 65vh;
+}
