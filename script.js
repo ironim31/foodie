@@ -38,6 +38,12 @@ $(function(){
         let VideoRes =  $(`<a href="${mealsVideo}">作り方はこちら</a>`);
         VideoRes.insertBefore("#btn");
         $('.res').append($(imgRes),$(NameRes),$(VideoRes));
+        let pageHeight = $(document).innerHeight();
+        console.log(pageHeight);
+        $('body, html').animate({
+         scrollTop: pageHeight
+       }, 500);
+       return false;
         
 
 
